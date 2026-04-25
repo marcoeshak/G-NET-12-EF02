@@ -20,7 +20,7 @@ namespace G_NET_12_EF02
 
         public bool IsVerified { get; set; }
 
-        public Organizer Profile Profile { get; set; }
+        public OrganizerProfile Profile { get; set; }
 
         public ICollection<Event> Events { get; set; }
     }
